@@ -1,0 +1,244 @@
+/* CSS Variables */
+/* ************* */
+:root {
+   --general: crimson;
+   --primary: #ddd;
+   --dark: #333;
+   --light: #fff;
+   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+/* CSS General */
+/* *********** */
+html {
+   font-family: Arial, Helvetica, sans-serif;
+   color: var(--dark);
+   background-color: var(--general);
+}
+
+body {
+   margin: 30px 50px;
+   line-height: 20px;
+}
+
+header {
+   color: white;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.divide-line-header {
+   color: var(--light);
+   margin-top: 25px;
+   width: 25%;
+}
+
+/* CSS Quote */
+/* ********* */
+#quote-box{
+   display: table;
+   background-color: white;
+   box-shadow: 5px;
+   width: 450px;
+   margin: auto;
+   padding: 40px 50px;
+   border-radius: 3px;
+   box-shadow: var(--shadow);
+}
+
+.quote {
+   font-size: 22px;
+   font-weight: 500;
+   margin: 0;
+   color: var(--dark);
+}
+
+.author {
+   margin-top: 20px;
+   text-align: right;
+}
+
+.divide-line-quote {
+   color: var(--general);
+   margin-top: 25px;
+   width: 75%;
+   box-shadow: var(--shadow);
+}
+
+/* CSS Buttons */
+/* *********** */
+.buttons .btn {
+   color: (--light);
+   margin: 30px 5px 10px 0;
+   padding: 10px 20px;
+   text-decoration: none;
+   border: 0;
+   box-shadow: var(--shadow);
+}
+
+#tweet-quote{
+   background-color: deepskyblue;
+   width: 75px;
+   color: var(--light);
+   font-size: 18px;
+   float: left;
+}
+
+#tumblr-quote {
+   background-color: #2f4155;
+   width: 75px;
+   color: var(--light);
+   font-size: 18px;
+   float: left;
+}
+
+#new-quote {
+   background-color: var(--general);
+   color: var(--light);
+   font-size: 18px;
+   font-weight: 700;
+   float: right;
+}
+
+/* CSS Footer */
+footer {
+   margin-top: 15px;
+   font-size: 12px;
+   color: var(--light);
+   text-align: center;
+}
+
+footer a {
+   color: var(--light);
+   text-decoration: none;
+}
+
+/* Responsive CSS */
+@media(max-width: 480px) {
+   body {
+      margin: 10px 10px;
+   }
+   
+   header h1 {
+      margin-top: 50px;
+      font-size: 20px;
+   }
+
+   header p {
+      font-size: 12px;
+   }
+   
+   .divide-line-header {
+      width: 50%;
+   }
+
+   #quote-box{
+      width: 420px;
+      padding: 15px 15px;
+   }
+   
+   .quote {
+      font-size: 18px;
+   }
+   
+   .author {
+      margin-top: 16px;
+   }
+}
+
+@media(max-width: 415px) {
+   body {
+      margin: 10px 10px;
+   }
+   
+   header h1 {
+      margin-top: 50px;
+      font-size: 20px;
+   }
+
+   header p {
+      font-size: 12px;
+   }
+   
+   .divide-line-header {
+      width: 50%;
+   }
+
+   #quote-box{
+      width: 350px;
+      padding: 15px 15px;
+   }
+   
+   .quote {
+      font-size: 16px;
+   }
+   
+   .author {
+      margin-top: 14px;
+   }
+}
+
+@media(max-width: 380px) {
+   body {
+      margin: 10px 10px;
+   }
+   
+   header h1 {
+      margin-top: 50px;
+      font-size: 20px;
+   }
+
+   header p {
+      font-size: 12px;
+   }
+   
+   .divide-line-header {
+      width: 50%;
+   }
+
+   #quote-box{
+      width: 325px;
+      padding: 15px 15px;
+   }
+   
+   .quote {
+      font-size: 16px;
+   }
+   
+   .author {
+      margin-top: 14px;
+   }
+}
+
+@media(max-width: 360px) {
+   body {
+      margin: 10px 10px;
+   }
+   
+   header h1 {
+      margin-top: 50px;
+      font-size: 20px;
+   }
+
+   header p {
+      font-size: 12px;
+   }
+   
+   .divide-line-header {
+      width: 50%;
+   }
+
+   #quote-box{
+      width: 300px;
+      padding: 15px 15px;
+   }
+   
+   .quote {
+      font-size: 16px;
+   }
+   
+   .author {
+      margin-top: 14px;
+   }
+}
